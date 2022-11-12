@@ -1,0 +1,56 @@
+.container {
+    @apply w-full flex flex-col ;
+}
+
+.main {
+    @apply  w-full mt-3 flex flex-row  bg-white rounded border border-[#6464645a] px-4;
+    height: 60px;
+}
+
+.items{
+    @apply flex flex-row items-center h-full space-x-3 text-[0.9rem] tracking-tight font-bold;
+    width: 95%;
+}
+
+.label{
+    @apply mt-4 text-[0.9rem] tracking-tight font-medium text-gray-700;
+}
+
+.hot{
+    @apply   text-sky-600 ml-1;
+}
+
+.loclabel{
+    @apply text-sky-600   p-1 px-4 bg-slate-100 rounded-xl;
+}
+
+.itemcontainer{
+    @apply flex flex-row items-center p-1 bg-slate-100 rounded-xl;
+}
+
+.locationcontainer{
+    @apply flex flex-row items-center;
+}
+
+.newcontainer{
+    @apply flex flex-row items-center;
+}
+.newlabel{
+    @apply text-[#aaa9a9];
+}
+
+.topcontainer{
+    @apply flex flex-row items-center;
+}
+
+.toplabel{
+    @apply text-[#aaa9a9];
+}
+
+.dotdotdotcontainer{
+    @apply flex items-center justify-center;
+}
+
+.endcontainer{
+    @apply flex justify-end items-center ;
+}
