@@ -8,7 +8,7 @@
 }
 
 .items{
-    @apply flex flex-row items-center h-full space-x-3 text-[0.9rem] tracking-tight font-bold;
+    @apply flex flex-row items-center h-full space-x-5 text-[0.9rem] tracking-tight font-bold;
     width: 95%;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .loclabel{
-    @apply text-sky-600   p-1 px-4 bg-slate-100 rounded-xl;
+    @apply text-sky-600   ;
 }
 
 .itemcontainer{
@@ -29,14 +29,14 @@
 }
 
 .locationcontainer{
-    @apply flex flex-row items-center;
+    @apply flex flex-row items-center p-1 px-4 bg-slate-100 rounded-xl mr-2;
 }
 
 .newcontainer{
     @apply flex flex-row items-center;
 }
 .newlabel{
-    @apply text-[#aaa9a9];
+    @apply text-[#aaa9a9] ml-2;
 }
 
 .topcontainer{
@@ -44,7 +44,7 @@
 }
 
 .toplabel{
-    @apply text-[#aaa9a9];
+    @apply text-[#aaa9a9] ml-2;
 }
 
 .dotdotdotcontainer{

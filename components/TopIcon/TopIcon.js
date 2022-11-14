@@ -11,7 +11,7 @@ export default function TopIcon() {
       fill="#aaa9a9"
       stroke="#000"
       strokeLinecap="square"
-      ariaLabelledby="chartIconTitle"
+     
       color="#aaa9a9"
       viewBox="0 0 24 24"
     >
